@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.Donutify" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- App background after load -->
+        <item name="android:windowBackground">@color/pink_main</item>
+
+        <!-- Splash screen background -->
+        <item name="android:windowSplashScreenBackground">@color/pink_main</item>
+
+    </style>
+
+    <style name="Theme.Donutify" parent="Base.Theme.Donutify" />
+
+</resources>

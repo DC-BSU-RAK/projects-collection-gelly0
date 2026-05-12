@@ -1,0 +1,65 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="340dp">
+
+    <!-- Background -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/popup_bg" />
+
+    <!-- Content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Donut"
+            android:textColor="#3E211F"
+            android:textSize="20sp"
+            android:fontFamily="@font/krona_one"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Image -->
+        <ImageView
+            android:id="@+id/popupImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="centerInside"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Text -->
+        <TextView
+            android:id="@+id/popupText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Result here"
+            android:textColor="#3E211F"
+            android:textSize="15sp"
+            android:fontFamily="@font/krona_one"
+            android:gravity="center"
+            android:layout_marginBottom="18dp"/>
+
+    <!-- Close Button -->
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:backgroundTint="#3E211F"
+            android:fontFamily="@font/krona_one"
+            android:text="CLOSE"
+            android:textColor="#FFFFFF"
+            android:textSize="11sp" />
+
+    </LinearLayout>
+
+</FrameLayout>
