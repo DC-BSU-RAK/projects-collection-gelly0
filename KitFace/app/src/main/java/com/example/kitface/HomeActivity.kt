@@ -14,7 +14,7 @@ class HomeActivity : AppCompatActivity() {
 
         val tvWelcome = findViewById<TextView>(R.id.tvWelcome)
         val btnStart = findViewById<Button>(R.id.btnStart)
-        val btnInstructions = findViewById<Button>(R.id.btnInstructions) // ✅ ADD THIS
+        val btnInstructions = findViewById<Button>(R.id.btnInstructions) 
         val btnChange = findViewById<Button>(R.id.btnChange)
 
         // Save Name
